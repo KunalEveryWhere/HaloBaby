@@ -4,5 +4,18 @@
         "999999999.99999999999": "Error in MIC & Audio",
         "888888888.111111111": "Error in ECG Simple Data / Leads are removed",
         "888888888.222222222": "Error in ECG Manual Data"
+    },
+    "warnings_raised":
+    {
+        "1. Wire.h":
+        {
+            "Title": "Wire.requestFrom(Gyro_MPU_ADDR,  14, (bool)true); // request a total of 14 registers   //check if fix available now",
+            "Description": "Wire.requestForm is a overloded fucntion, and thus value datatypes in parameter makes the complier confused. the boolean part needs a fix."
+        },
+        "2. Wire.h":
+        {
+            "Title": "uint8_t requestFrom(int address, int size, int sendStop);",
+            "Description": "Wire.requestForm is a overloded fucntion, and thus value datatypes in parameter makes the complier confused"
+        }
     }
 }

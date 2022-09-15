@@ -41,9 +41,7 @@ uint32_t ECG_New_Data;
 uint8_t Gyro_MPU_ADDR = 0x68; // I2C address of the MPU-6050
 int16_t AcX, AcY, AcZ, Tmp, GyX, GyY, GyZ;
 
-
-
-
+//Function Declarations
 float TempData ();
 float MicData ();
 int ECGDataSimple ();
