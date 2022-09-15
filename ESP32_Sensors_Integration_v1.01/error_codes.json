@@ -1,0 +1,8 @@
+{
+    "error_codes":
+    {
+        "999999999.99999999999": "Error in MIC & Audio",
+        "888888888.111111111": "Error in ECG Simple Data / Leads are removed",
+        "888888888.222222222": "Error in ECG Manual Data"
+    }
+}
